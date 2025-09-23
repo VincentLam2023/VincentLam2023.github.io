@@ -1,0 +1,52 @@
+html {
+  font-size: 16px;
+}
+
+/*center text*/
+.center-text {
+  text-align: center;
+}
+
+.grid-container {
+  font-weight: bold;
+  background-color: transparent;
+  padding-top: 20px;
+}
+
+body {
+  background-color: rgb(65, 74, 51);
+  color: rgb(255, 255, 255);
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.padding {
+  padding: 2rem;
+}
+
+.circle-img {
+  width: 60%;
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.mar {
+  margin-top: 1rem;
+}
