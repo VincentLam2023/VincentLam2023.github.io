@@ -35,7 +35,7 @@ body {
   margin: 0 auto;
 }
 hr.solid {
-  border-top: 3px solid #bbb;
+  border-top: 3px solid rgb(255, 255, 255);
 }
 h3 {
   text-align: center;
