@@ -9,89 +9,48 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="off-canvas-wrapper">
-      <!-- Your menu or Off-canvas content goes here -->
-      <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-        <!--
-        //Close button
-        <button
-          class="close-button"
-          aria-label="Close menu"
-          type="button"
-          data-close
-        >
-          <span aria-hidden="true">&times;</span>
-        </button>
-
-        //menu
-        <ul class="vertical menu">
-          <li><a href="#">Foundation</a></li>
-          <li><a href="#">Dot</a></li>
-          <li><a href="#">ZURB</a></li>
-          <li><a href="#">Com</a></li>
-          <li><a href="#">Slash</a></li>
-          <li><a href="#">Sites</a></li>
-        </ul>
-        -->
+    <div class="grid-container">
+      <!-- `grid-x` represents a row -->
+      <div class="grid-x grid-padding-x center-text">
+        <div class="cell large-auto">
+          <h1>Vincent Lam</h1>
+        </div>
       </div>
-      <!-- Your page content lives here -->
-      <div class="off-canvas-content" data-off-canvas-content>
-        <!-- main content within a `grid-container` -->
-        <div class="grid-container">
-          <!-- `grid-x` represents a row -->
-          <div class="grid-x grid-padding-x center-text">
-            <div class="cell large-auto">
-              <h1>Vincent Lam</h1>
-            </div>
-          </div>
 
-          <div class="grid-x grid-padding-x center-text">
-            <div class="cell large-auto">
-              <a href="index.html">Home</a>
-            </div>
-            <div class="cell large-auto">
-              <a href="projects.html">Projects</a>
-            </div>
-            <div class="cell large-auto">Resume</div>
-            <div class="cell large-auto">Fun Stuff</div>
+      <div class="grid-x grid-padding-x center-text">
+        <div class="cell large-auto">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="cell large-auto">
+          <a href="projects.html">Projects</a>
+        </div>
+        <div class="cell large-auto">Resume</div>
+        <div class="cell large-auto">Fun Stuff</div>
+      </div>
+      <hr class="solid" />
+      <div class="grid-x grid-padding-x align-middle">
+        <div class="cell large-6">
+          <img src="images.jpeg" alt="Vincent Lam" class="circle-img" />
+        </div>
+        <div class="cell large-6">
+          <p>
+            My name is Vincent Lam. I am currently a senior at the Univercity of
+            St. Thomas, majoring in computer science and will be graduating at
+            the end of the school year. I have an intrest in cybersecurty and
+            game development. Currently my plan is to join the military after I
+            graduating.
+          </p>
+        </div>
+      </div>
+      <hr class="solid" />
+      <div class="grid-x grid-padding-x align-middle">
+        <div class="cell large-12">
+          <div class="container">
+            <h3>Contact info</h3>
+            <p>Phone: (651) 747-5838</p>
+            <p>Email: Vincent.Lam448@gmail.com</p>
+            <p>Loaction: Stillwater, MN 55082</p>
           </div>
-          <hr class="solid" />
-          <div class="grid-x grid-padding-x align-middle">
-            <div class="cell large-6">
-              <img src="images.jpeg" alt="Vincent Lam" class="circle-img" />
-            </div>
-            <div class="cell large-6">
-              <p>
-                My name is Vincent Lam. I am currently a senior at the
-                Univercity of St. Thomas, majoring in computer science and will
-                be graduating at the end of the school year. I have an intrest
-                in cybersecurty and game development. Currently my plan is to
-                join the military after I graduating.
-              </p>
-            </div>
-          </div>
-          <hr class="solid" />
-          <div class="grid-x grid-padding-x align-middle">
-            <div class="cell large-12">
-              <div class="container">
-                <h3>Contact info</h3>
-                <p>Phone: (651) 747-5838</p>
-                <p>Email: Vincent.Lam448@gmail.com</p>
-                <p>Loaction: Stillwater, MN 55082</p>
-              </div>
-            </div>
-          </div>
-          <!--
-          <div class="grid-x grid-padding-x">
-            <button
-              type="button"
-              class="cell large-auto button"
-              data-toggle="offCanvas"
-            >
-              Open Menu
-            </button>
-          </div>
-          -->
         </div>
       </div>
     </div>
