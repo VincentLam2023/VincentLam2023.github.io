@@ -26,10 +26,9 @@ body {
   padding: 2rem;
 }
 
-.circle-img {
+img {
   width: 60%;
   height: 90%;
-  border-radius: 50%;
   object-fit: cover;
   display: block;
   margin: 0 auto;
