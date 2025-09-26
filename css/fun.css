@@ -1,6 +1,5 @@
 html {
   font-size: 16px;
-  font-family: "Times New Roman", Times, serif;
 }
 
 /*center text*/
@@ -28,22 +27,15 @@ body {
   padding: 2rem;
 }
 
-.circle-img {
-  width: 60%;
-  height: 90%;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-}
 hr.solid {
   border-top: 3px solid rgb(255, 255, 255);
 }
 h3 {
-  font-weight: bold;
+  text-align: center;
 }
-p {
-  font-size: 1rem;
+img {
+  display: block;
+  margin: 0 auto;
 }
 
 .container {
